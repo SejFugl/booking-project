@@ -1,0 +1,80 @@
+.rsrv {
+    position: relative;
+    line-height: 100%;
+    font-weight: 900;
+}
+.navItem {
+    position: relative;
+    line-height: 125%;
+    font-weight: 600;
+    color: #3282b8;
+}
+.navItem1 {
+    position: relative;
+    line-height: 125%;
+}
+.label {
+    position: relative;
+    line-height: 125%;
+    font-weight: 600;
+}
+.registerButton {
+    width: 150px;
+    border-radius: 4px;
+    border: 2px solid #3282b8;
+    box-sizing: border-box;
+    height: 40px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    padding: 0px 16px;
+    color: #3282b8;
+}
+.registerButton:hover {
+    color: #fff;
+    background-color: #3282b8;
+    transform: scale(1.05);
+    transition: transform 0.3s ease-in-out;
+}
+.navigationItems {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-start;
+    gap: 32px;
+    font-size: 20px;
+    color: #616161;
+}
+.navigation {
+    align-self: stretch;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0px 56px;
+}
+.horizontalRule {
+    align-self: stretch;
+    position: relative;
+    border-top: 1px solid #e5e5e5;
+    box-sizing: border-box;
+    height: 1px;
+}
+.header {
+    width: 100%;
+    position: relative;
+    height: 96px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    padding: 24px 0px;
+    box-sizing: border-box;
+    gap: 24px;
+    text-align: left;
+    font-size: 48px;
+    color: #3282b8;
+    font-family: 'Source Sans Pro';
+}
+
