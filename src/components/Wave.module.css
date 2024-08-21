@@ -1,0 +1,28 @@
+.waveIcon {
+    width: 100%;
+    position: fixed;
+    max-width: 100%;
+    overflow: hidden;
+    height: 928px;
+    padding-top: 463.164px;
+    pointer-events: none;
+    animation: waveAnimation 10s linear infinite;
+}
+
+/* @keyframes waveAnimation {
+    0% {
+        transform: scale(1);
+    }
+
+    50% {
+        transform: scale(1.1);
+    }
+
+    100% {
+        transform: scale(1);
+    }
+}
+
+.animated-svg {
+    animation: waveAnimation 5s ease-in-out infinite;
+} */
