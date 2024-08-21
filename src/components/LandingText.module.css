@@ -1,0 +1,61 @@
+.title {
+    align-self: stretch;
+    position: relative;
+    line-height: 125%;
+    font-weight: 600;
+}
+.body {
+    align-self: stretch;
+    position: relative;
+    font-size: 18px;
+    line-height: 150%;
+}
+.text {
+    align-self: stretch;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    gap: 16px;
+}
+.label {
+    position: relative;
+    line-height: 125%;
+    font-weight: 600;
+}
+.registerButton {
+    width: 150px;
+    border-radius: 4px;
+    border: 2px solid #3282b8;
+    box-sizing: border-box;
+    height: 40px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    padding: 0px 16px;
+    font-size: 20px;
+}
+.registerButton:hover {
+    color: #fff;
+    background-color: #3282b8;
+    transform: scale(1.05);
+    transition: transform 0.3s ease-in-out;
+}
+.landingText {
+    width: 100%;
+    position: absolute;
+    left: 89px;
+    top: 163px;
+    height: 250px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    gap: 20px;
+    text-align: left;
+    font-size: 48px;
+    color: #3282b8;
+    font-family: 'Source Sans Pro';
+}
+
